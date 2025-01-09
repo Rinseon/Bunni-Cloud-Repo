@@ -50,18 +50,19 @@ jobs:
           echo '    { "Name": "Avarice", "Description": "Positional assistant with feedback", "Repository": "https://love.puni.sh/ment.json" },' >> pluginmaster.json
           echo '    { "Name": "LazyLoot", "Description": "Looting automation", "Repository": "https://love.puni.sh/ment.json" },' >> pluginmaster.json
           echo '    { "Name": "Orbwalker", "Description": "Slidecasting helper", "Repository": "https://love.puni.sh/ment.json" },' >> pluginmaster.json
-          echo '    { "Name": "Pandora\'s Box", "Description": "Quality of life focused tweaks", "Repository": "https://love.puni.sh/ment.json" },' >> pluginmaster.json
+          echo '    { "Name": "Pandora'\''s Box", "Description": "Quality of life focused tweaks", "Repository": "https://love.puni.sh/ment.json" },' >> pluginmaster.json
           echo '    { "Name": "Saucy", "Description": "MGP & Triple Triad automation", "Repository": "https://love.puni.sh/ment.json" },' >> pluginmaster.json
           echo '    { "Name": "Splatoon", "Description": "Fight mechanic helper", "Repository": "https://love.puni.sh/ment.json" },' >> pluginmaster.json
           echo '    { "Name": "YesAlready", "Description": "Dynamic dialogue box and bothers automation", "Repository": "https://love.puni.sh/ment.json" },' >> pluginmaster.json
           echo '    { "Name": "Wrath Combo", "Description": "Combo plugin, with auto-rotation and optimization", "Repository": "https://love.puni.sh/ment.json" },' >> pluginmaster.json
-          echo '    { "Name": "Explorer\'s Icebox", "Description": "Island Sanctuary Leveling/Gathering Buddy", "Repository": "https://puni.sh/api/repository/ice" },' >> pluginmaster.json
+          echo '    { "Name": "Explorer'\''s Icebox", "Description": "Island Sanctuary Leveling/Gathering Buddy", "Repository": "https://puni.sh/api/repository/ice" },' >> pluginmaster.json
           echo '    { "Name": "Hoard Farm", "Description": "For the Hoard-achievement farmer", "Repository": "https://puni.sh/api/repository/jukka" },' >> pluginmaster.json
           echo '    { "Name": "NecroLens", "Description": "DeepDungeon ESP", "Repository": "https://puni.sh/api/repository/jukka" },' >> pluginmaster.json
           echo '    { "Name": "Autoduty", "Description": "Automates dungeon and trial duty management", "Repository": "https://puni.sh/api/repository/herc" }' >> pluginmaster.json
           echo '  ]' >> pluginmaster.json
           echo '}' >> pluginmaster.json
           echo "Generated pluginmaster.json dynamically."
+
 
       - name: Reset and Push Updates
         run: |
