@@ -1,1 +1,1 @@
-This repository serves as a personal hub for consolidating Dalamud plugin repositories used in Final Fantasy XIV. It streamlines plugin management by aggregating multiple sources into a single repository, making it easier to access and update plugins.
+
