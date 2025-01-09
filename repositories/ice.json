@@ -1,0 +1,49 @@
+[
+  {
+    "Author": "Ice",
+    "Name": "Explorer's Icebox",
+    "Punchline": "What if, we held hands underneath the quartz mountain.",
+    "Description": "A little helper that lets you level up, or gather all the materials on Island Sanctary. Requires Navmesh & Visland.\nPop open a cold one while the tedious parts of exploration is handled by your good friend cousin robby",
+    "Tags": [
+      "Island Sanctuary",
+      "Island",
+      "Sanctuary"
+    ],
+    "InternalName": "ExplorersIcebox",
+    "RepoUrl": "https://github.com/LeontopodiumNivale14/Explorers-Icebox/tree/master",
+    "DownloadCount": 2788,
+    "LastUpdate": 1736030031564,
+    "DownloadLinkInstall": "https://puni.sh/api/plugins/download/64/ExplorersIcebox/versions/latest.zip",
+    "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/64/ExplorersIcebox/versions/latest.zip",
+    "AssemblyVersion": "1.0.3.3",
+    "ApplicableVersion": "any",
+    "DalamudApiLevel": "11",
+    "Changelog": "Fixed XPGrind from breaking... WOOOPS",
+    "IconUrl": "https://s3.puni.sh/media/plugin/64/icon-vw3ucktk0f.png"
+  },
+  {
+    "Author": "Ice, UcanPatates",
+    "Name": "Root of Riches",
+    "Punchline": "Time to make some gill.",
+    "Description": "This Plugin is meant to help you turn in your Deltascape , Gordian and Alexandrian parts. (O1-4N, A9-12, and A1-4). \n\nThis also has a built in farming mode for A4N, so you can grind to your hearts content. ",
+    "Tags": [
+      "Gil",
+      "A4N",
+      "O3N",
+      "Global Turnin"
+    ],
+    "InternalName": "RootofRiches",
+    "RepoUrl": "https://github.com/UcanPatatess/Root-Of-Riches",
+    "DownloadCount": 397,
+    "LastUpdate": 1736181268135,
+    "TestingAssemblyVersion": "0.0.0.18",
+    "DownloadLinkTesting": "https://puni.sh/api/plugins/download/66/RootofRiches/versions/testing.zip",
+    "TestingDalamudApiLevel": "11",
+    "IsTestingExclusive": true,
+    "AssemblyVersion": "0.0.0.18",
+    "ApplicableVersion": "any",
+    "DalamudApiLevel": "11",
+    "Changelog": "Fixed buying from a 2nd/3rd shop (hopefully fixing omega and alexander shop)  \nAdded checkmarks for necessary things for Normal Mode Raid Farms  ",
+    "IconUrl": "https://s3.puni.sh/media/plugin/66/icon-t1astzinf6o.png"
+  }
+]

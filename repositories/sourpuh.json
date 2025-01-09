@@ -1,0 +1,47 @@
+[
+  {
+    "Author": "sourpuh",
+    "Name": "Waymark Studio",
+    "Punchline": "The Ultimate FFXIV Waymark Plugin",
+    "Description": "A total replacement for the in-game waymark editor and Waymark Preset plugin. It provides a suite of tools to make placing and loading waymark presets simple, fast, and accurate.",
+    "Tags": [
+      "waymark",
+      "studio"
+    ],
+    "InternalName": "WaymarkStudio",
+    "RepoUrl": "https://github.com/sourpuh/ffxiv_waymarkstudio",
+    "DownloadCount": 2339,
+    "LastUpdate": 1736019858175,
+    "DownloadLinkInstall": "https://puni.sh/api/plugins/download/62/WaymarkStudio/versions/latest.zip",
+    "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/62/WaymarkStudio/versions/latest.zip",
+    "AssemblyVersion": "0.0.0.9",
+    "ApplicableVersion": "any",
+    "DalamudApiLevel": "11",
+    "Changelog": "",
+    "ImageUrls": [
+      "https://s3.puni.sh/media/plugin/62/image-3wzsk69fih2.png",
+      "https://s3.puni.sh/media/plugin/62/image-cz33a2rx09l.png"
+    ]
+  },
+  {
+    "Author": "sourpuh",
+    "Name": "Interjection",
+    "Punchline": "Better interrupt and enmity tracking",
+    "Description": "Show which casts are interruptible in the Enemy List. Color enmity gems when enemies are targeting other tanks.",
+    "Tags": [],
+    "InternalName": "Interjection",
+    "RepoUrl": "https://github.com/sourpuh/ffxiv_interjection",
+    "DownloadCount": 97,
+    "LastUpdate": 1733089876615,
+    "DownloadLinkInstall": "https://puni.sh/api/plugins/download/63/Interjection/versions/latest.zip",
+    "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/63/Interjection/versions/latest.zip",
+    "AssemblyVersion": "0.0.0.1",
+    "ApplicableVersion": "any",
+    "DalamudApiLevel": "11",
+    "Changelog": "",
+    "IconUrl": "https://s3.puni.sh/media/plugin/63/icon-ogeu0gg4g6h.png",
+    "ImageUrls": [
+      "https://s3.puni.sh/media/plugin/63/image-w9qpjb1phr.png"
+    ]
+  }
+]

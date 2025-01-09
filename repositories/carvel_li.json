@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Liza's plugin repository</title>
+  <link rel="icon" href="https://git.carvel.li/repo-avatars/874f13a59a628db499744a9c017a8d24d49f5a1da754d14de7d3e6600098c62a">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/kimeiga/bahunya/dist/bahunya.min.css">
+
+  <meta charset="utf-8">
+  <meta name="description" content="My description">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    h4 img { width: 1.44rem; height: 1.44rem; vertical-align: baseline; }
+    blockquote { border-left: 4px solid var(--links); }
+  </style>
+
+</head>
+
+<body>
+  <div style="text-align: center;">
+    <h1>Liza's Plugin Repository</h1>
+    <p>
+      <a href="https://git.carvel.li">Git</a></li> | <a href="https://discord.gg/3Pep6GN26H">Discord</a> | <a href="https://www.patreon.com/lizac">Patreon</a>
+    </p>
+  </div>
+
+  <h3>Getting Started</h3>
+  <article>
+    <p>
+      <ul>
+        <li>Open Dalamud's settings (<code>/xlsettings</code>)</li>
+        <li>Click on the <code>Experimental</code> tab</li>
+        <li>Scroll Down to <code>Custom Plugin Repositories</code></li>
+        <li>Add the following URL: <code>https://plugins.carvel.li/</code>, then click on the Plus next to it</li>
+        <li>Click on the Save icon in the bottom right corner</li>
+      </ul>
+    </p>
+  </article>
+
+  <h3>Plugins</h3>
+    <article>
+      <h4><img src="https://plugins.carvel.li/icons/Questionable.png"/> <a href="https://git.carvel.li/liza/Questionable">Questionable</a><small> v4.13</small></h4>
+      
+      <p>A tiny little quest helper plugin, which does quests for you automatically where possible. Uses navmesh to automatically walk to all quest waypoints, and tries to automatically complete all steps along the way (excluding dungeons, single player duties and combat).</p>
+      <p>Not all quests are supported, check the discord or git repository for an up-to-date list.</p>
+      <p>Required Plugins: vnavmesh, TextAdvance, Lifestream</p>
+    </article>
+    <article>
+      <h4><img src="https://plugins.carvel.li/icons/Deliveroo.png"/> <a href="https://git.carvel.li/liza/Deliveroo">Deliveroo</a><small> v6.4</small></h4>
+      
+      <p>Better Grand Company Deliveries</p>
+    </article>
+    <article>
+      <h4><img src="https://plugins.carvel.li/icons/SliceIsRight.png"/> <a href="https://git.carvel.li/liza/SliceIsRight">Slice is Right</a><small> v9.0</small></h4>
+      
+      <p>Shows where Bamboo falls.</p>
+    </article>
+    <article>
+      <h4><img src="https://plugins.carvel.li/icons/Gearsetter.png"/> <a href="https://git.carvel.li/liza/Gearsetter">Gearsetter</a><small> v2.3</small></h4>
+      
+      <p>Browse through all gear pieces available for each class/job and show possible upgrades</p>
+    </article>
+    <article>
+      <h4><img src="https://plugins.carvel.li/icons/ARControl.png"/> <a href="https://git.carvel.li/liza/ARControl">ARC</a><small> v6.0</small></h4>
+      
+      <p>Better AutoRetainer Venture Planner</p>
+    </article>
+    <article>
+      <h4><img src="https://plugins.carvel.li/icons/Workshoppa.png"/> <a href="https://git.carvel.li/liza/Workshoppa">Workshoppa</a><small> v7.0</small></h4>
+      
+      <p>Better Company Workshop Turn-In</p>
+    </article>
+    <article>
+      <h4><img src="https://plugins.carvel.li/icons/ARDiscard.png"/> <a href="https://git.carvel.li/liza/ARDiscard">Discard Helper</a><small> v7.0</small></h4>
+      
+      <p>Small plugin to help keep your inventory organized (especially when automating retainers or submersibles) by discarding items you don't want (e.g. Stuffed Alphas)</p>
+    </article>
+    <article>
+      <h4><img src="https://plugins.carvel.li/icons/KitchenSink.png"/> <a href="https://git.carvel.li/liza/KitchenSink">KitchenSink</a><small> v2.3</small></h4>
+      
+      <p>A plugin for things that aren't worth their own plugins; see commands for details.</p>
+    </article>
+    <article>
+      <h4><img src="https://plugins.carvel.li/icons/Squadronista.png"/> <a href="https://git.carvel.li/liza/Squadronista">Squadronista</a><small> v5.0</small></h4>
+      
+      <p>Simplified Squadron Calculator, heavily inspired by https://ffxivsquadron.com/</p>
+    </article>
+    <article>
+      <h4><img src="https://plugins.carvel.li/icons/RetainerTrack.png"/> <a href="https://git.carvel.li/liza/RetainerTrack">RetainerTrack</a><small> v5.0</small></h4>
+      
+      <p>Keeps track of who a retainer belongs to - if you have seen the retainer's owner locally (if you were on the same party, or if you have seen an item crafted by them).</p>
+      <p>Tracking is unavailable if the crafter isn't the retainer owner (to avoid resellers being attributed incorrectly), and if the tooltip says 'Obtaining Signature'.</p>
+    </article>
+    <article>
+      <h4><img src="https://plugins.carvel.li/icons/FishNotify.png"/> <a href="https://git.carvel.li/liza/FishNotify">Fish Notify</a><small> v8.0</small></h4>
+      
+      <p>Plays a sound when a fish is caught, depending on tug-strength</p>
+    </article>
+    <article>
+      <h4><img src="https://plugins.carvel.li/icons/Influx.png"/> <a href="https://git.carvel.li/liza/Influx">Influx</a><small> v2.0</small></h4>
+      
+      <p>Sync game stats to InfluxDB</p>
+    </article>
+</body>
+</html>
