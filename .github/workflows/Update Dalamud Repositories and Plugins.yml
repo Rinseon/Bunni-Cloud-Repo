@@ -73,7 +73,8 @@ jobs:
           git config user.name "GitHub Actions"
           git config user.email "actions@github.com"
           git add repositories/ plugins/ pluginmaster.json
-          git commit -m "Auto-update repository JSONs, plugin files, and pluginmaster.json"
+          git commit -m "Auto-update repository JSONs, plugin files, and pluginmaster.json" || echo "No changes to commit"
+          git pull --rebase origin main
           git push
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
