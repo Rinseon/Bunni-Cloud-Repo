@@ -43,26 +43,26 @@ jobs:
         run: |
           # Generate pluginmaster.json file dynamically
           cat <<EOF > pluginmaster.json
-{
-  "Plugins": [
-    { "Name": "Artisan", "Description": "Crafting solver, automated lists, and macros", "Repository": "https://love.puni.sh/ment.json" },
-    { "Name": "AutoHook", "Description": "Automated fishing & solving", "Repository": "https://love.puni.sh/ment.json" },
-    { "Name": "AutoRetainer", "Description": "Retainer & submersible automation", "Repository": "https://love.puni.sh/ment.json" },
-    { "Name": "Avarice", "Description": "Positional assistant with feedback", "Repository": "https://love.puni.sh/ment.json" },
-    { "Name": "LazyLoot", "Description": "Looting automation", "Repository": "https://love.puni.sh/ment.json" },
-    { "Name": "Orbwalker", "Description": "Slidecasting helper", "Repository": "https://love.puni.sh/ment.json" },
-    { "Name": "Pandora's Box", "Description": "Quality of life focused tweaks", "Repository": "https://love.puni.sh/ment.json" },
-    { "Name": "Saucy", "Description": "MGP & Triple Triad automation", "Repository": "https://love.puni.sh/ment.json" },
-    { "Name": "Splatoon", "Description": "Fight mechanic helper", "Repository": "https://love.puni.sh/ment.json" },
-    { "Name": "YesAlready", "Description": "Dynamic dialogue box and bothers automation", "Repository": "https://love.puni.sh/ment.json" },
-    { "Name": "Wrath Combo", "Description": "Combo plugin, with auto-rotation and optimization", "Repository": "https://love.puni.sh/ment.json" },
-    { "Name": "Explorer's Icebox", "Description": "Island Sanctuary Leveling/Gathering Buddy", "Repository": "https://puni.sh/api/repository/ice" },
-    { "Name": "Hoard Farm", "Description": "For the Hoard-achievement farmer", "Repository": "https://puni.sh/api/repository/jukka" },
-    { "Name": "NecroLens", "Description": "DeepDungeon ESP", "Repository": "https://puni.sh/api/repository/jukka" },
-    { "Name": "Autoduty", "Description": "Automates dungeon and trial duty management", "Repository": "https://puni.sh/api/repository/herc" }
-  ]
-}
-EOF
+          {
+            "Plugins": [
+              { "Name": "Artisan", "Description": "Crafting solver, automated lists, and macros", "Repository": "https://love.puni.sh/ment.json" },
+              { "Name": "AutoHook", "Description": "Automated fishing & solving", "Repository": "https://love.puni.sh/ment.json" },
+              { "Name": "AutoRetainer", "Description": "Retainer & submersible automation", "Repository": "https://love.puni.sh/ment.json" },
+              { "Name": "Avarice", "Description": "Positional assistant with feedback", "Repository": "https://love.puni.sh/ment.json" },
+              { "Name": "LazyLoot", "Description": "Looting automation", "Repository": "https://love.puni.sh/ment.json" },
+              { "Name": "Orbwalker", "Description": "Slidecasting helper", "Repository": "https://love.puni.sh/ment.json" },
+              { "Name": "Pandora's Box", "Description": "Quality of life focused tweaks", "Repository": "https://love.puni.sh/ment.json" },
+              { "Name": "Saucy", "Description": "MGP & Triple Triad automation", "Repository": "https://love.puni.sh/ment.json" },
+              { "Name": "Splatoon", "Description": "Fight mechanic helper", "Repository": "https://love.puni.sh/ment.json" },
+              { "Name": "YesAlready", "Description": "Dynamic dialogue box and bothers automation", "Repository": "https://love.puni.sh/ment.json" },
+              { "Name": "Wrath Combo", "Description": "Combo plugin, with auto-rotation and optimization", "Repository": "https://love.puni.sh/ment.json" },
+              { "Name": "Explorer's Icebox", "Description": "Island Sanctuary Leveling/Gathering Buddy", "Repository": "https://puni.sh/api/repository/ice" },
+              { "Name": "Hoard Farm", "Description": "For the Hoard-achievement farmer", "Repository": "https://puni.sh/api/repository/jukka" },
+              { "Name": "NecroLens", "Description": "DeepDungeon ESP", "Repository": "https://puni.sh/api/repository/jukka" },
+              { "Name": "Autoduty", "Description": "Automates dungeon and trial duty management", "Repository": "https://puni.sh/api/repository/herc" }
+            ]
+          }
+          EOF
           echo "Generated pluginmaster.json dynamically."
 
       - name: Reset and Push Updates
