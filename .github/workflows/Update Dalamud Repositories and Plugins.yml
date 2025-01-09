@@ -65,9 +65,6 @@ jobs:
 EOF
           echo "Generated pluginmaster.json dynamically."
 
-
-
-
       - name: Reset and Push Updates
         run: |
           git fetch origin main
