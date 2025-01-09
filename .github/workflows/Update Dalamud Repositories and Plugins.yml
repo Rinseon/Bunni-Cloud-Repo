@@ -44,8 +44,6 @@ jobs:
           # Generate pluginmaster.json file dynamically
           echo '{' > pluginmaster.json
           echo '  "Plugins": [' >> pluginmaster.json
-
-          # Core plugins
           echo '    { "Name": "Artisan", "Description": "Crafting solver, automated lists, and macros", "Repository": "https://love.puni.sh/ment.json" },' >> pluginmaster.json
           echo '    { "Name": "AutoHook", "Description": "Automated fishing & solving", "Repository": "https://love.puni.sh/ment.json" },' >> pluginmaster.json
           echo '    { "Name": "AutoRetainer", "Description": "Retainer & submersible automation", "Repository": "https://love.puni.sh/ment.json" },' >> pluginmaster.json
@@ -57,25 +55,22 @@ jobs:
           echo '    { "Name": "Splatoon", "Description": "Fight mechanic helper", "Repository": "https://love.puni.sh/ment.json" },' >> pluginmaster.json
           echo '    { "Name": "YesAlready", "Description": "Dynamic dialogue box and bothers automation", "Repository": "https://love.puni.sh/ment.json" },' >> pluginmaster.json
           echo '    { "Name": "Wrath Combo", "Description": "Combo plugin, with auto-rotation and optimization", "Repository": "https://love.puni.sh/ment.json" },' >> pluginmaster.json
-
-          # Other plugins
           echo '    { "Name": "Explorer\'s Icebox", "Description": "Island Sanctuary Leveling/Gathering Buddy", "Repository": "https://puni.sh/api/repository/ice" },' >> pluginmaster.json
           echo '    { "Name": "Hoard Farm", "Description": "For the Hoard-achievement farmer", "Repository": "https://puni.sh/api/repository/jukka" },' >> pluginmaster.json
           echo '    { "Name": "NecroLens", "Description": "DeepDungeon ESP", "Repository": "https://puni.sh/api/repository/jukka" },' >> pluginmaster.json
           echo '    { "Name": "Autoduty", "Description": "Automates dungeon and trial duty management", "Repository": "https://puni.sh/api/repository/herc" }' >> pluginmaster.json
-
           echo '  ]' >> pluginmaster.json
           echo '}' >> pluginmaster.json
           echo "Generated pluginmaster.json dynamically."
 
-         - name: Reset and Push Updates
-           run: |
-             git fetch origin main
-             git reset --hard origin/main
-             git config user.name "GitHub Actions"
-             git config user.email "actions@github.com"
-             git add repositories/ plugins/ pluginmaster.json
-             git commit -m "Auto-update repository JSONs, plugin files, and pluginmaster.json" || echo "No changes to commit"
-             git push
-           env:
-             GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Reset and Push Updates
+        run: |
+          git fetch origin main
+          git reset --hard origin/main
+          git config user.name "GitHub Actions"
+          git config user.email "actions@github.com"
+          git add repositories/ plugins/ pluginmaster.json
+          git commit -m "Auto-update repository JSONs, plugin files, and pluginmaster.json" || echo "No changes to commit"
+          git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
